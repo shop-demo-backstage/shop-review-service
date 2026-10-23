@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: shop-review-service
+  description: 리뷰를 관리하는 서비스
+spec:
+  type: service
+  lifecycle: experimental
+  owner: guests
